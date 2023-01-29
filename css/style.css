@@ -39,6 +39,20 @@ header .name {
     margin-left: 10px;
 }
 
+.inline {
+    display: flex;
+    gap: 8px;
+}
+
+.normal {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.blue {
+    color: blue;
+}
+
 header .follow-btn {
     display: flex;
     align-items: center;
