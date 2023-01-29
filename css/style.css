@@ -20,7 +20,7 @@ main {
     border: 1px solid gray;
     padding: 15px;
     border-radius: 10px;
-    width: 83%;
+    width: 100%;
 }
 
 header {
@@ -63,6 +63,18 @@ header .pic {
 
 .blue {
     color: rgb(29, 161, 242);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bottom {
+    display: block;
+    position: relative;
+    bottom: -10px;
 }
 
 .icons {
