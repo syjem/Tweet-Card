@@ -80,13 +80,44 @@ header .pic {
 .icons {
     display: flex;
     justify-content: flex-start;
-    gap: 5px;
 }
 
-span {
+.fa-heart {
+    padding: 5px;
+    text-align: center;
+}
+
+.fa-heart:hover {
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.fa-comment {
+
+}
+
+.fa-arrow-up-from-bracket {
+
+}
+
+.logo {
+    padding: 5px;
+}
+
+/* .section1 {
+    border: 1px solid red;
+}
+
+.section1:hover {
+    text-decoration: underline;
+    color: rgb(247, 20, 115);
+} */
+
+label {
     color: rgb(61, 60, 60);
-    font-size: 13px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 20px;
 }
 
 .pink-red {
