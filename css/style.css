@@ -65,6 +65,22 @@ header .pic {
     color: rgb(29, 161, 242);
 }
 
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+span {
+    color: rgb(61, 60, 60);
+    font-size: 13px;
+    padding: 10px;
+}
+
+.pink-red {
+    color: rgb(247, 20, 115);
+}
+
 header .follow-btn {
     display: flex;
     align-items: center;
