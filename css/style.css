@@ -21,7 +21,7 @@ main {
     padding: 15px;
 }
 
-header, footer {
+header {
     display: flex;
     flex-direction: row;
 }
