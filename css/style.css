@@ -66,25 +66,3 @@ header h3, header h4 {
     border-style: solid;
     opacity: 0.1;
 }
-
-.stats {
-    display: flex;
-    font-size: 15px;
-}
-
-.stats strong {
-    font-size: 18px;
-}
-
-.stats .likes {
-    margin-left: 10px;
-}
-
-.cta {
-    margin-left: auto;
-}
-
-.cta button {
-    border: 0;
-    background: transparent;
-}
