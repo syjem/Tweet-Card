@@ -6,59 +6,80 @@
 
 body {
     font-family: Arial, sans-serif;
+
   }
-  header, footer {
-    display: flex;
-    flex-direction: row;
-  }
-  header .pic {
+
+main {
+    border: 2px solid red;
+    width: 50%;
+    margin: 100px auto;
+    padding: 3px;
+}
+
+header, footer {
+display: flex;
+flex-direction: row;
+}
+
+header .pic {
     width: 50px;
     height: 50px;
-    border-radius: 4px;
-  }
-  header .name {
+
+}
+
+header .name {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-  }
-  header .follow-btn {
-    display: flex;
+}
 
+header .follow-btn {
+    display: flex;
+    align-items: center;
     margin: 0 0 0 auto;
-  }
-  header .follow-btn button {
+}
+
+header .follow-btn button {
     border: 0;
     border-radius: 3px;
     padding: 5px;
-  }
-  header h3, header h4 {
+}
+
+header h3, header h4 {
     display: flex;
     margin: 0;
-  }
-  #inner p {
+}
+
+#inner p {
     margin-bottom: 10px;
     font-size: 20px;
-  }
-  #inner hr {
+}
+
+#inner hr {
     margin: 20px 0;
     border-style: solid;
     opacity: 0.1;
-  }
- .stats {
+}
+
+.stats {
     display: flex;
     font-size: 15px;
-  }
- .stats strong {
+}
+
+.stats strong {
     font-size: 18px;
-  }
- .stats .likes {
+}
+
+.stats .likes {
     margin-left: 10px;
-  }
-  .cta {
+}
+
+.cta {
     margin-left: auto;
-  }
- .cta button {
+}
+
+.cta button {
     border: 0;
     background: transparent;
-  }
+}
