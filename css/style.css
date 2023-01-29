@@ -45,20 +45,20 @@ body {
     border-style: solid;
     opacity: 0.1;
   }
-  footer .stats {
+ .stats {
     display: flex;
     font-size: 15px;
   }
-  footer .stats strong {
+ .stats strong {
     font-size: 18px;
   }
-  footer .stats .likes {
+ .stats .likes {
     margin-left: 10px;
   }
-  footer .cta {
+  .cta {
     margin-left: auto;
   }
-  footer .cta button {
+ .cta button {
     border: 0;
     background: transparent;
   }
