@@ -81,12 +81,14 @@ header .pic {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    border: 1px solid pink;
 }
 
 .bottom {
     display: block;
     position: relative;
-    bottom: -10px;
+    bottom: -1px;
+    font-size: 16px;
     color: #5f6161;
 }
 
@@ -106,7 +108,7 @@ header .pic {
 }
 
 .fa-comment {
-
+    color: rgb(29, 161, 242);
 }
 
 .fa-arrow-up-from-bracket {
