@@ -45,11 +45,21 @@ header .pic {
     width: 100%;
 }
 
+.fa-twitter {
+    color: rgb(29, 161, 242);
+    font-size: 20px;
+}
+
 .space-between {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+.follow {
+    color: rgb(29, 161, 242);
+    font-size: 15px;
 }
 
 .inline {
@@ -59,11 +69,11 @@ header .pic {
 
 .normal {
     font-weight: 100;
-    font-size: 14px;
+    font-size: 15px;
     color: #5f6161;
 }
 
-#inner p#blue {
+#inner p.blue {
     color: rgb(29, 161, 242);
 }
 
@@ -77,6 +87,7 @@ header .pic {
     display: block;
     position: relative;
     bottom: -10px;
+    color: #5f6161;
 }
 
 .icons {
@@ -170,7 +181,7 @@ header h3, header h4 {
 
 #inner p {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     color: #3e3f3f;
     line-height: 25px;
