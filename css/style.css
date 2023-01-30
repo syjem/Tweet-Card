@@ -137,14 +137,19 @@ header .pic {
     color: rgb(29, 161, 242);
 }
 
+.fa-comment:hover {
+    background-color: rgb(214, 231, 235);
+    border-radius: 50%;
+}
+
 .fa-arrow-up-from-bracket:hover {
-    background-color: rgb(169, 204, 169);
+    background-color: rgb(214, 231, 235);
     border-radius: 50%;
     color: green;
 }
 
 .logo {
-    padding: 5px;
+    padding: 8px;
 }
 
 /* .section1 {
