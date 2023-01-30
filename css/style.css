@@ -163,7 +163,7 @@ a {
     border: 1px solid rgb(207, 207, 238);
 }
 
-a:hover p {
+ a:hover .read {
     background-color: rgb(204, 221, 230);
 }
 
