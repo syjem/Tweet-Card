@@ -17,6 +17,10 @@ main {
     padding: 3px;
 }
 
+.tweet:hover {
+    background-color: rgba(223, 230, 231, 0.3);
+}
+
 .tweet {
     border: 1px solid rgb(207, 207, 238);
     padding: 15px;
