@@ -59,10 +59,11 @@ header .pic {
 
 .normal {
     font-weight: 100;
-    font-size: 16px;
+    font-size: 14px;
+    color: #5f6161;
 }
 
-.blue {
+#inner p#blue {
     color: rgb(29, 161, 242);
 }
 
@@ -164,11 +165,19 @@ header .follow-btn button {
 header h3, header h4 {
     display: flex;
     margin: 0;
+    color: #3e3f3f;
 }
 
 #inner p {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3e3f3f;
+    line-height: 25px;
+}
+
+.date {
+    color: #3e3f3f;
 }
 
 #inner hr {
