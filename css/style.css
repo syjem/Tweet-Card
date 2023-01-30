@@ -37,6 +37,10 @@ header .pic {
     border-radius: 50%;
 }
 
+.hover:hover {
+    text-decoration: underline;
+}
+
 .name {
     display: flex;
     flex-direction: column;
