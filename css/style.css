@@ -137,8 +137,10 @@ header .pic {
     color: rgb(29, 161, 242);
 }
 
-.fa-arrow-up-from-bracket {
-
+.fa-arrow-up-from-bracket:hover {
+    background-color: rgb(169, 204, 169);
+    border-radius: 50%;
+    color: green;
 }
 
 .logo {
