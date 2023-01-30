@@ -57,6 +57,14 @@ header .pic {
     width: 100%;
 }
 
+.center {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    color: rgb(28, 139, 207);
+  }
+
 .follow {
     color: rgb(29, 161, 242);
     font-size: 15px;
