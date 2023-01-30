@@ -95,12 +95,27 @@ header .pic {
     text-align: center;
 }
 
+.date {
+    display: inline-block;
+    position: relative;
+    bottom: -1px;
+    color: #3e3f3f;
+    font-size: 15px;
+    padding: 7px;
+}
+
 .info-icon {
     display: block;
     position: relative;
     bottom: -1px;
     font-size: 16px;
     color: #5f6161;
+    padding: 7px;
+}
+
+.info-icon:hover {
+    border-radius: 50%;
+    background-color: rgb(204, 221, 230);
 }
 
 .icons {
@@ -198,11 +213,6 @@ header h3, header h4 {
     font-weight: 300;
     color: #3e3f3f;
     line-height: 25px;
-}
-
-.date {
-    color: #3e3f3f;
-    font-size: 15px;
 }
 
 #inner hr {
